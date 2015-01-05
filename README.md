@@ -39,3 +39,15 @@ Example Usage:
 
 </FrameLayout>
 ```
+
+You can use text for the button's content too.
+```
+<at.markushi.ui.CircleButtonText
+        android:layout_width="64dip"
+        android:layout_height="64dip"
+        android:text="A"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        app:cb_color="#99CC00"
+        app:cb_pressedRingWidth="8dip" />
+```
