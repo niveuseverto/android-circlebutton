@@ -9,7 +9,6 @@ import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.Gravity;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import at.markushi.circlebutton.R;
