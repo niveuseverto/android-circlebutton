@@ -3,5 +3,6 @@
     <declare-styleable name="CircleButton">
         <attr name="cb_color" format="color" />
         <attr name="cb_pressedRingWidth" format="dimension" />
+        <attr name="cb_image_spacing" format="dimension" />
     </declare-styleable>
 </resources>
