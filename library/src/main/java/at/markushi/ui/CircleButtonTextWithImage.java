@@ -97,8 +97,10 @@ public class CircleButtonTextWithImage extends RelativeLayout {
         layoutParams.height = h;
         setLayoutParams(layoutParams);
 
-        imageView.setMaxWidth(w / 3);
-        imageView.setMaxHeight(h / 3);
+        ViewGroup.LayoutParams imageParams = imageView.getLayoutParams();
+        imageParams.width = w / 3;
+        imageParams.height = h / 3;
+        imageView.setLayoutParams(imageParams);
     }
 
     public float getAnimationProgress() {
